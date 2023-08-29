@@ -35,6 +35,7 @@ response = ec2_console.start_instances(
     InstanceIds=['i-0ee69636e3c00049c']
 )
 
+# Schedule Instance as per requirement
 def manage_instance():
     instance_id = 'i-0ee69636e3c00049c'
 

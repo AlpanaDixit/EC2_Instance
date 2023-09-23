@@ -12,7 +12,7 @@ ec2_console = aws_management_console.client(service_name = "ec2")
 
 # Create EC2 Instance in eu-north-1 Region
 response = ec2_console.run_instances(
-    ImageId='ami-0989fb15ce71ba39e',
+    ImageId='#############',
     InstanceType='t3.micro',
     MaxCount=1,
     MinCount=1,
